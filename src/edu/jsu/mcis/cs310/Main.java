@@ -13,11 +13,14 @@ public class Main {
     }
     
     public String getGreeting() {
-        return "Hello, World!";
+        return "War Eagle!";
     }
     
     public String reverse(String message) {
-        return message;
+        StringBuilder r = new StringBuilder();
+        r.append(message);
+        r.reverse();
+        return r.toString();
     }
     
 }
